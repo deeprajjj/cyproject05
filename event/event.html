@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CONTEST COUNTER</title>
+<link rel="stylesheet" href="event.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="#" class="navbar-brand">CONTEST TRACKER</a>
+</nav>
+
+<div class="container">
+    <div class="event" onclick="navigateTo('https://www.codechef.com/START127C')">
+        <div class="event-title">Codechef Starter 127</div>
+        <div class="countdown" id="event1"></div>
+    </div>
+    <div class="event" onclick="navigateTo('https://www.codechef.com/START128C')">
+        <div class="event-title">Codechef Starter 128</div>
+        <div class="countdown" id="event2"></div>
+    </div>
+    <div class="event" onclick="navigateTo('https://www.codechef.com/START128C')">
+        <div class="event-title">Codechef Starter 129</div>
+        <div class="countdown" id="event3"></div>
+    </div>
+    <div class="event" onclick="navigateTo('https://codeforces.com/contestRegistration/1950')">
+        <div class="event-title">Codeforces div 4</div>
+        <div class="countdown" id="event4"></div>
+    </div>
+    <div class="event" onclick="navigateTo('https://leetcode.com/contest/weekly-contest-391/')">
+        <div class="event-title">Leetcode weekly contest 391</div>
+        <div class="countdown" id="event5"></div>
+    </div>
+    <div class="event" onclick="navigateTo('https://leetcode.com/contest/biweekly-contest-127/')">
+        <div class="event-title">Biweekly Contest 127</div>
+        <div class="countdown" id="event6"></div>
+    </div>
+</div>
+
+<script src="event.js"></script>    
+<script>
+    // Function to navigate to a different page
+    function navigateTo(page) {
+        window.location.href = page;
+    }
+</script>
+
+</body>
+</html>

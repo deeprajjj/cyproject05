@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Developer Team</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    h1 {
+        margin: 0;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .team-member {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center; /* Align items vertically */
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 1px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .team-member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 20px; /* Add space between image and text */
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Developer Team</h1>
+</header>
+<div class="container">
+    <section id="team-members"></section>
+</div>
+<footer>
+    <p>&copy; 2024 Developers Team</p>
+</footer>
+<a href="/devloper/deep.png"></a>
+
+<script>
+    // Sample data for team members including image URLs
+    const teamMembers = [
+        { name: "DEEPRAJJ", role: "Full Stack Developer, Webscraper", imageUrl: "/devloper/deeprajj.png" },
+        { name: "ATHRAV", role: "Frontend Developer", imageUrl: "/devloper/atrav.png" },
+        { name: "MOUNIKA", role: "UI/UX Designer , Frontend Developer", imageUrl: "/devloper/m.png" },
+        { name: "PUNIT", role: "Frontend Developer", imageUrl: "/devloper/p.png" },
+        { name: "NANDANI", role: "UI/UX Designer , Frontend Developer", imageUrl: "/devloper/nan.png" }
+    ];
+
+    // Function to display team members
+    function displayTeamMembers() {
+        const teamMembersSection = document.getElementById("team-members");
+        teamMembers.forEach(member => {
+            const memberDiv = document.createElement("div");
+            memberDiv.classList.add("team-member");
+            memberDiv.innerHTML = `
+                <img src="${member.imageUrl}" alt="${member.name}">
+                <div>
+                    <h2>${member.name}</h2>
+                    <p>${member.role}</p>
+                </div>
+            `;
+            teamMembersSection.appendChild(memberDiv);
+        });
+    }
+
+    // Call the function to display team members
+    displayTeamMembers();
+</script>
+</body>
+</html>

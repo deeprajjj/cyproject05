@@ -1,0 +1,117 @@
+/*style.css*/
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../feedtry/fi.jpg);
+	background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family: sans-serif;
+	line-height: 1.5;
+	min-height: 100vh;
+	/* background: hsl(0, 0%, 95%); */
+	flex-direction: column;
+	margin: 0;
+	
+}
+.card {
+    display: inline-block; /* Change from 'inline' to 'inline-block' */
+    border-radius: 10px;
+    padding: 20px; /* You might need to adjust this */
+    text-align: center;
+    width: auto; /* Allow the width to be determined by the content */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1.2s ease;
+    margin-left: 400px;
+	margin-top: 12%;
+	margin-bottom: 15%;
+}
+
+  
+  .card h2 {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .card p {
+	color: #666;
+	font-size: 18px;
+	margin: 0;
+  }
+  
+  .card.slide-up {
+	bottom: 0; /* Move card to its original position */
+	opacity: 1; /* Make the card visible */
+  }
+  
+.cont{
+	display: flex;
+	/* justify-content: space-between; */
+	/* margin: 20px; */
+}
+
+.main {
+	/* display: flex; */
+	background-color: #f0f0f0;
+	border-radius: 15px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	padding: 10px 20px;
+	transition: transform 0.2s;
+	width: 350px;
+	text-align: center;
+	margin-left: 200px;
+    margin-right: 40px; /* Add this line to move .main to the left side */
+}
+
+h1 {
+	color: #312929;
+}
+
+label {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;
+}
+
+
+input {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+button {
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background-color: #757b89;
+	width: 100%;
+	font-size: 16px;
+}
+
+.wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#submitref{
+	margin-bottom: 300px;
+	margin-top: 30px;
+	background-color: black;
+}

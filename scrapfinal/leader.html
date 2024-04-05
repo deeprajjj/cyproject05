@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leaderboard</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7caca;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdf9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .leaderboard {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  .leaderboard th, .leaderboard td {
+    border: 1px solid #773131;
+    padding: 10px;
+    text-align: left;
+  }
+  .leaderboard th {
+    background-color: #c58e8e;
+    font-weight: bold;
+  }
+  .leaderboard tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  .leaderboard tr:hover {
+    background-color:   #c0acac;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Leaderboard</h1>
+  <!-- <input type="file" name="inputfile" id="inputfile"> -->
+
+  <table class="leaderboard">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody id="leaderboardBody">
+      <!-- Table rows will be added here dynamically -->
+    </tbody>
+  </table>
+</div>
+
+<script src="../scrapfinal/scrape.js"> 
+  
+</script>
+
+</body>
+</html>
