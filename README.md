@@ -13,11 +13,11 @@ ECSA is a website that does what it says i.e empower coding skill and acedmics
 -> HTML , Css , Js , beautifulsoup(python)
 
 ## GROUP DETAILS 
-1 DEEP RAJ KUMAR (22bcy49)
-2 MOUNIKA SEERA (22bcy__)
-3 DASARI PAAVANA NANDANI (22bcy__)
-4 ATHARAV BHATADE (22bcy__)
-5 PARANJI PUNITH KUMAR (22bcy27)
+1] DEEP RAJ KUMAR (22bcy49)
+2] MOUNIKA SEERA (22bcy__)
+3] DASARI PAAVANA NANDANI (22bcy__)
+4] ATHARAV BHATADE (22bcy__)
+5] PARANJI PUNITH KUMAR (22bcy27)
 
 ## CONTACT DETAILS :
 MAIL : deep22bcy49@iiitkottayam.ac.in
