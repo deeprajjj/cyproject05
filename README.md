@@ -25,4 +25,10 @@ MAIL : deep22bcy49@iiitkottayam.ac.in
 ## Project Link
 https://elaborate-pony-e66beb.netlify.app/
 
+## TEST CRED :
+user1 : user1@gmail.com
+pass1 : @User19121912
+user2 : user2@gmail.com
+pass2 : @User1912*
+
 
