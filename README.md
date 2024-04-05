@@ -14,9 +14,9 @@ ECSA is a website that does what it says i.e empower coding skill and acedmics
 
 ## GROUP DETAILS 
 1] DEEP RAJ KUMAR (22bcy49)
-2] MOUNIKA SEERA (22bcy__)
-3] DASARI PAAVANA NANDANI (22bcy__)
-4] ATHARAV BHATADE (22bcy__)
+2] MOUNIKA SEERA (22bcy60)
+3] DASARI PAAVANA NANDANI (22bcy38)
+4] ATHARAV BHATADE (22bcy05)
 5] PARANJI PUNITH KUMAR (22bcy27)
 
 ## CONTACT DETAILS :
